@@ -159,7 +159,6 @@ class Auth extends Component{
 }
 
 const mapStateToProps = state =>{
-    console.log( state.auth.authRedirectPath);
     return{
         loading: state.auth.loading,
         error : state.auth.error,
